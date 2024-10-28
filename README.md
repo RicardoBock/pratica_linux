@@ -154,9 +154,20 @@ sudo crontab -e
 
 #### 6.2 Adicione a seguinte linha ao final do arquivo:
 
+Cada linha no crontab representa uma tarefa agendada, e é organizada em um formato específico que indica quando o comando deve ser executado.
+
+Cada asterisco (*) representa uma unidade de tempo e pode ser substituido por valores específicos:
+* Minutos (0 - 59)
+* Horas (0-23)
+* Dia do mês (0 - 59)
+* Mês (1 - 12)
+* Dia da semana (De 0 a 7 onde ambos representam o domingo)
+  
 ```bash
 */5 * * * * /scripts/verifica_servidor.sh
 ```
+Neste caso a cada cinco minutos o script 'verifica_servidor.sh' é executado
+
 
 * Logs quando o sistema está online:
 
