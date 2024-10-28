@@ -1,6 +1,14 @@
-# __Atividade prática 1 - DevSecOps Compass UOL__
+# __ATIVIDADE PRÁTICA 1 - DEVSECOPS COMPASS UOL__
 ## Prática realizada no programa de bolsas da Compass UOL na trilha de DevSecOps/Out2024</h2>
-<h3>Objetivos:</h3>
+
+<h2> Requisitos </h2>
+<ul>
+  <li>Windows 11</li>
+  <li>Ubuntu 22.04 LTS</li>
+  <li>WSL</li>
+</ul>
+
+<h2>Objetivos:</h2>
 
 <ul>
   <li>Instalar o WSL e o UBUNTU 22.04 LTS;</li>
@@ -12,10 +20,13 @@
   <li>Realizar a documentação do processo de instalação do Linux, instalação e funcionamento do servidor NGINX, script utilizado e processo de automatização.</li>
 </ul>
 
-## __ÍNDICE__
-### 1. [Ativação do WSL]
-
-
+# __ÍNDICE__
+1. [Ativação do WSL](###1.-Ativação-do-WSL)
+2. [Instalação do Ubuntu 22.04 LTS](###-2.-Instalação-do-Ubuntu-22.04-LTS)
+3. [Instalação do NGINX no Ubuntu](###-3.-Instalação-do-NGINX-no-Ubuntu)
+4. [Configuração de Permissões e Criação de Logs](###-4-Configuração-de-Permissões-e-Criação-de-Logs)
+5. [Criação do Script de Verificação de Status](###-5.-Criação-do-Script-de-Verificação-de-Status)
+6. [Automatização da Execução do Script](###-6.-Automatização-da-Execução-do-Script)
 ---
 
 ### 1. Ativação do WSL
@@ -27,6 +38,7 @@ Para ativar o Windows Subsystem for Linux (WSL) no Windows, execute os seguintes
 wsl --install
 ```
 #### 1.3 Reinicie o sistema após a instalação, se solicitado.
+<hr>
 
 ### 2. Instalação do Ubuntu 22.04 LTS
 
@@ -35,6 +47,7 @@ wsl --install
 #### 2.2 Busque por "Ubuntu 22.04 LTS".
 
 #### 2.3 Clique em Obter e instale a distribuição.
+<hr>
 
 ### 3. Instalação do NGINX no Ubuntu
 
@@ -57,6 +70,7 @@ service nginx status
 ```
 
 ![Status do Nginx](imgs/parte_3-verificação_do_status.png)
+<hr>
 
 ### 4 Configuração de Permissões e Criação de Logs
 #### 4.1 Verifique a porta utilizada pelo NGINX:
@@ -85,6 +99,7 @@ sudo touch /var/log/nginx/servico_online.log
 sudo touch /var/log/nginx/servico_offline.log
 ````
 ![Pasta com os arquivos de log criados](imgs/arquivos_logs.png)
+ <hr>
  
 ### 5. Criação do Script de Verificação de Status
 
@@ -123,6 +138,7 @@ O script tem a função de quando executado gravar uma mensagem com data-hora, s
 * Nginx offline
 
  ![Execução do projeto quando offline](imgs/executando_script_off.png)
+<hr>
 
 ### 6. Automatização da Execução do Script
 
