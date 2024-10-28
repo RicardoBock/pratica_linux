@@ -21,12 +21,12 @@
 </ul>
 
 # __ÍNDICE__
-1. [Ativação do WSL](###1.-Ativação-do-WSL)
-2. [Instalação do Ubuntu 22.04 LTS](###-2.-Instalação-do-Ubuntu-22.04-LTS)
-3. [Instalação do NGINX no Ubuntu](###-3.-Instalação-do-NGINX-no-Ubuntu)
-4. [Configuração de Permissões e Criação de Logs](###-4-Configuração-de-Permissões-e-Criação-de-Logs)
-5. [Criação do Script de Verificação de Status](###-5.-Criação-do-Script-de-Verificação-de-Status)
-6. [Automatização da Execução do Script](###-6.-Automatização-da-Execução-do-Script)
+1. [Ativação do WSL](#1-ativação-do-wsl)
+2. [Instalação do Ubuntu 22.04 LTS](#2-instalação-do-ubuntu-2204-lts)
+3. [Instalação do NGINX no Ubuntu](#3-instalação-do-nginx-no-ubuntu)
+4. [Configuração de Permissões e Criação de Logs](#4-configuração-de-permissões-e-criação-de-logs)
+5. [Criação do Script de Verificação de Status](#5-criação-do-script-de-verificação-de-status)
+6. [Automatização da Execução do Script](#6-automatização-da-execução-do-script)
 ---
 
 ### 1. Ativação do WSL
